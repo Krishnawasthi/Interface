@@ -67,3 +67,70 @@ class Dog implements Animal {
 
 }
 ```
+
+# ✨ Features of Interface
+
+- Provides abstraction
+- Supports multiple inheritance
+- Contains public static final variables
+- Methods are public by default
+- Cannot create objects of an interface
+- A class implements an interface
+- One class can implement multiple interfaces
+- Promotes loose coupling
+- Makes code flexible and maintainable
+
+---
+
+# 📌 Rules of Interface
+
+### Variables
+
+Every variable is automatically
+
+```java
+public static final
+```
+
+Example
+
+```java
+interface Demo {
+
+    int VALUE = 100;
+
+}
+```
+
+Actually becomes
+
+```java
+public static final int VALUE = 100;
+```
+
+---
+
+### Methods (Before Java 8)
+
+Every method was automatically
+
+```java
+public abstract
+```
+
+Example
+
+```java
+interface Vehicle {
+
+    void start();
+
+}
+```
+
+Actually becomes
+
+```java
+public abstract void start();
+```
+
