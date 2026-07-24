@@ -133,4 +133,7 @@ Actually becomes
 ```java
 public abstract void start();
 ```
+<img width="752" height="263" alt="image" src="https://github.com/user-attachments/assets/a03f79b2-2fd8-4611-8d77-e0ed1fef1b08" />
+### 1. In interface their will be no construtor only abstract methods and only constants are allowed
+### 2. in Interface the methods will be public and abstract --> by default.
 
