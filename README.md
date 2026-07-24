@@ -137,4 +137,7 @@ public abstract void start();
 
 ### 1. In interface their will be no construtor only abstract methods and only constants are allowed
 ### 2. in Interface the methods will be public and abstract --> by default.
+### 3. Interface does not allowed Object creation and no point of instance variable here.
+### 4. Where you can say, 100% is contract, my class should implement.
+### 5. These are before the java 8. there are huge changes in java8  and java9.
 
