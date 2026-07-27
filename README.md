@@ -68,6 +68,8 @@ class Dog implements Animal {
 }
 ```
 
+<img width="885" height="193" alt="image" src="https://github.com/user-attachments/assets/6d55c1b2-e783-4e98-8074-7d65643c7e05" />
+
 # ✨ Features of Interface
 
 - Provides abstraction
@@ -133,4 +135,11 @@ Actually becomes
 ```java
 public abstract void start();
 ```
+<img width="752" height="263" alt="image" src="https://github.com/user-attachments/assets/a03f79b2-2fd8-4611-8d77-e0ed1fef1b08" />
+
+### 1. In interface their will be no construtor only abstract methods and only constants are allowed
+### 2. in Interface the methods will be public and abstract --> by default.
+### 3. Interface does not allowed Object creation and no point of instance variable here.
+### 4. Where you can say, 100% is contract, my class should implement.
+### 5. These are before the java 8. there are huge changes in java8  and java9.
 
