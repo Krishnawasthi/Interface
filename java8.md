@@ -17,6 +17,11 @@ This made interfaces much more powerful.
 <img width="1252" height="372" alt="image" src="https://github.com/user-attachments/assets/8ae28030-b519-41de-9de2-9966db796e28" />
 
 
+
+<img width="885" height="193" alt="image" src="https://github.com/user-attachments/assets/78133e77-b0a0-478d-a0bc-3cc3c8f4dd26" />
+
+
+
 # ⭐ Default Method
 
 A **default method** is a method that already has an implementation inside the interface.
