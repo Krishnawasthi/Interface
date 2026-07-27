@@ -6,6 +6,13 @@ A **Marker Interface** is an interface that **does not contain any methods or fi
 
 It acts as a **tag** that identifies objects with a particular property.
 
+<img width="940" height="231" alt="image" src="https://github.com/user-attachments/assets/a924b0d9-7b4f-4773-80ac-82e714a87733" />
+
+
+### if you want to control something, if you want to control some critical activity, which should not be allowed, which should not be allowed.
+####  without the permission of owner. Without the permission of the owner. What are those activities -> cloneable, serializable,remote.
+
+
 ```java
 public interface Serializable {
 }
