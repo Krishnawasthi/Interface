@@ -68,6 +68,8 @@ class Dog implements Animal {
 }
 ```
 
+<img width="885" height="193" alt="image" src="https://github.com/user-attachments/assets/6d55c1b2-e783-4e98-8074-7d65643c7e05" />
+
 # ✨ Features of Interface
 
 - Provides abstraction
