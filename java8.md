@@ -14,7 +14,7 @@ This made interfaces much more powerful.
 
 ---
 
-<img width="1252" height="672" alt="image" src="https://github.com/user-attachments/assets/8ae28030-b519-41de-9de2-9966db796e28" />
+<img width="1252" height="372" alt="image" src="https://github.com/user-attachments/assets/8ae28030-b519-41de-9de2-9966db796e28" />
 
 
 # ⭐ Default Method
