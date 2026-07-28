@@ -13,6 +13,11 @@ It acts as a **tag** that identifies objects with a particular property.
 ####  without the permission of owner. Without the permission of the owner. What are those activities -> cloneable, serializable,remote.
 
 
+
+<img width="947" height="250" alt="image" src="https://github.com/user-attachments/assets/4a527fcc-e121-4f96-b6a3-f7ada67397b5" />
+
+
+
 ```java
 public interface Serializable {
 }
