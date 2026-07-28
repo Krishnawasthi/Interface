@@ -15,7 +15,7 @@ It acts as a **tag** that identifies objects with a particular property.
 
 
 <img width="947" height="250" alt="image" src="https://github.com/user-attachments/assets/4a527fcc-e121-4f96-b6a3-f7ada67397b5" />
-
+###  Inside method, you have some activity which without permission cannot be executed. Without permission cannot be executed.
 
 
 ```java
