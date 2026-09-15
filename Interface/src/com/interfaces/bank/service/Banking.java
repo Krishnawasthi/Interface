@@ -42,6 +42,10 @@ class BankOfBaroda extends Bank implements BankAccount{
 	balance += amount;
 	System.out.println("Current Balance: "+ balance);
 	System.out.println("---------------------------------------------------------------------");
+	if(balance < 2000) {
+		
+		System.out.println("Your Current balance is less than "+ MIN_BALANCE+" please maintain it as soon as possible.");
+	}
 	}
 
 	@Override
@@ -50,10 +54,16 @@ class BankOfBaroda extends Bank implements BankAccount{
 		System.out.println("Account Holder Name: "+ name);
 		System.out.println("Account Number: "+ accountNumber);
 
-		System.out.println("Initail Balance: "+ balance);
+		
+		if(amount < balance) {
+	    System.out.println("Initail Balance: "+ balance);
 		System.out.println("Withdraw Money: "+ amount);
 		balance -= amount;
 		System.out.println("Current Balance: "+ balance);
+		}
+		else {
+       	 System.out.println("You are inserted wrong amount " + amount);
+        }
 		System.out.println("---------------------------------------------------------------------");
 		}
 		
@@ -99,11 +109,15 @@ class PanjabNatiionalBank extends Bank implements BankAccount{
 	public void withdraw(int amount) {
 		System.out.println("Account Holder Name: "+ name);
 		System.out.println("Account Number: "+ accountNumber);
-
+         if(amount < balance) {
 		System.out.println("Initail Balance: "+ balance);
 		System.out.println("Withdraw Money: "+ amount);
 		balance -= amount;
 		System.out.println("Current Balance: "+ balance);
+         }
+         else {
+        	 System.out.println("You are inserted wrong amount " + amount);
+         }
 		System.out.println("---------------------------------------------------------------------");
 		
 	}
@@ -112,24 +126,16 @@ class PanjabNatiionalBank extends Bank implements BankAccount{
 	public void checkBalance() {
 		
 		System.out.println("Balance in your Account: " + balance);
-	}
-
-	
-	
-	
-	
+	}	
 }
-
-
-
 
 public class Banking {
 
 	public static void main(String[] args) {
 		
-		BankOfBaroda bob = new BankOfBaroda("Krishna Mohan Awasthi", "11900004343004",3500);
-		bob.deposit(1500);
-		bob.withdraw(1500);
+		BankOfBaroda bob = new BankOfBaroda("Krishna Mohan Awasthi", "11900004343004",500);
+		bob.deposit(300);
+		bob.withdraw(900);
 		bob.checkBalance();
 		System.out.println("-----------------------------------------------------------------------");
 		PanjabNatiionalBank pnb = new PanjabNatiionalBank("Mradul Awasthi", "110034005440", 45550);
