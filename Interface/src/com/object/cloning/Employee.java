@@ -16,6 +16,10 @@ package com.object.cloning;
 	   return super.clone();
 	   
    }
+   //That means, if you want to control something, if you want to control some critical activity,
+   //which should not be allowed, which should not be allowed.
+   //without the permission of owner. Without the permission of the owner. 
+   //What are those activities->  Cloning, Serializable
    
 	
 }
@@ -24,7 +28,7 @@ package com.object.cloning;
 	 public static void main(String[] args) throws CloneNotSupportedException {
 		Employeee   e = new Employeee("krishna","lko");
 		
-		Employeee e1 = (Employeee) e.clone();
+		Employeee e1 = (Employeee) e.clone(); 
 		
 		System.out.println(e1.location+" "+ e1.name);
 		
